@@ -1,0 +1,100 @@
+/*GERAL____________________________________*/
+/*Aqui estãos os códigos gerais do projeto*/
+
+.container{ /*Style da DIV Mãe*/
+    display: flex;
+    align-items: center;
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+p{ /*Style genérica da margem do texto de produto*/
+    margin: 0;
+}
+
+.produto{ /*Style genérica do texto de produto*/
+    padding: 8px;
+}
+
+
+/*BOX 1________________________________________*/
+/*1ª Box - Interna ao Container - Produto 01*/
+
+.box01, .img, .color{ /*Elementos gerais da Box 1*/
+    width: 250px;
+}
+
+.box01{
+    box-sizing: border-box;
+    margin-right: 200px;
+}
+
+.img{
+    height: 250px;
+    background-image: url(https://img.freepik.com/fotos-gratis/cartaz-com-molduras-verticais-na-parede-branca-vazia-no-interior-da-sala-de-estar-com-poltrona-de-veludo-azul-renderizacao-3d_41470-2907.jpg?t=st=1656360011~exp=1656360611~hmac=038a0e1ca7f4c1fee3a4e02d94cb02479eb3bede3b3495b8126af204a61829f0&w=740);
+    background-size: cover;
+}
+
+.cor{
+    height: 20px;
+    background-color: #c1adae;
+}
+
+
+/*BOX 2________________________________________*/
+/*2ª Box - Interna ao Container - Produto 02*/
+
+.box02, .img2{ /*Elementos gerais da Box 2*/
+    height: 550px;
+}
+
+.box02{
+    width: 550px;
+    background-color: green;
+}
+
+.img2{
+    background-image: url(https://img.freepik.com/fotos-gratis/parede-interna-da-sala-de-estar-em-tons-quentes-poltrona-cinza-com-gabinete-de-madeira-renderizacao-3d_41470-3656.jpg?w=740&t=st=1656362500~exp=1656363100~hmac=42e6532195c4842cc900c0b372d7c4909999bce54bf9d57cdb56b89b525536a5);
+    background-size: cover;
+    background-position: -180px;
+}
+
+.cor2{
+    height: 20px;
+}
+
+
+/*BOX 3________________________________________*/
+/*3ª Box - Externa ao Container - Texto central*/
+
+.box03{
+    margin-top: -400px;
+    margin-left: 450px;
+    z-index: 1;
+}
+
+#desconto{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: -80px;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 80px;
+    margin-bottom: -90px;
+}
+
+#shop{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    width: 80px;
+    margin-top: 80px;
+}
+
+#shop:hover{
+    cursor: pointer;
+}
